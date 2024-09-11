@@ -1,4 +1,4 @@
-#ciclo for
+#ciclo o metodo for
 def generar_serie(n):
     serie = []
     a, b = 5, 8
@@ -8,11 +8,11 @@ def generar_serie(n):
         a, b = b, a + b
     return serie
 
-# Generar los primeros 100 números de la serie sin mostrar el 13
-resultado = generar_serie(100)
+# ciclo while
+resultado = generar_serie(101)
 print(resultado)
 
-#ciclo while
+#ciclo o metodo while
 def generar_serie(n):
     serie = []
     a, b = 5, 8

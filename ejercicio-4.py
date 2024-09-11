@@ -1,4 +1,4 @@
-#ciclo for
+#ciclo o metodo for
 for i in range(2):
     puntaje = int(input(f"Ingrese el puntaje de leucemia del paciente {i+1}: "))
     if puntaje <= 10:
@@ -14,7 +14,7 @@ for i in range(2):
     
     print(f"Paciente {i+1}: {nivel}")
 
-#ciclo while
+#ciclo o metodo while
 i = 0
 pacientes = 803
 

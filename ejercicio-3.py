@@ -1,4 +1,4 @@
-#ciclo for 
+#ciclo  o metodo for 
 numeros = [int(input(f"Ingrese el número {i+1}: "))
            for i in range(400)]
 pares = [num for num in numeros if num % 2 == 0]
@@ -7,7 +7,7 @@ impares = [num for num in numeros if num % 2 != 0]
 print(f"Números pares: {len(pares)}")
 print(f"Números impares: {len(impares)}")
 
-#ciclo while
+#ciclo o metodo  while
 numeros = []
 i = 0
 

@@ -1,4 +1,4 @@
-#ciclo for
+#ciclo o metodo for 
 empleados = 1897
 for i in range(1, empleados + 1):
     salario_base = float(input(f"Ingrese el salario base del empleado {i}: "))     
@@ -10,7 +10,7 @@ for i in range(1, empleados + 1):
     print(f"Empleado {i}: Salario base = {salario_base}, Comisiones = {comisiones}, Seguridad Social = {seguridad_social}")
     print(f"Salario total = {salario_total}\n")
 
-#ciclo while
+#ciclo o metodo  while
 empleados = 1897
 i = 1
 while i <= empleados:

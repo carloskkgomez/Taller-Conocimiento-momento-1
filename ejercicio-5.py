@@ -1,4 +1,4 @@
-#ciclo for
+#ciclo o metodo for
 for i in range(4):
     puntaje = int(input(f"Ingrese el puntaje de la cabina {i+1}: "))
     if puntaje == 2:
@@ -12,7 +12,7 @@ for i in range(4):
     
     print(f"Cabina {i+1}: {estado}")
 
-#ciclo while
+#ciclo o metodo  while
 for i in range(407):
     puntaje = int(input(f"Ingrese el puntaje de la cabina {i+1}: "))
     if puntaje == 2:
